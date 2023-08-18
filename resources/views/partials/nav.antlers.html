@@ -1,0 +1,17 @@
+<nav class="p-8 max-w-4xl mx-auto">
+    <div class="flex bg-black px-4 rounded-md text-white items-center justify-between">
+        {{ nav:collection:pages }}
+            {{ if first }}
+                <a href="/" class="text-2xl font-bold text-green-500">Screen</a>
+            {{ /if }}
+        {{ /nav:collection:pages }}
+        <ul class="flex items-center space-x-8 font-semibold ">
+            {{ nav:collection:pages }}
+                <li><a href="{{ url }}" class="py-4 block hover:underline">{{ title }}</a></li>
+            {{ /nav:collection:pages }}
+            {{ nav:header }}
+                <li><a href="{{ url }}" class="py-4 block hover:underline">{{ title }}</a></li>
+            {{ /nav:header  }}
+        </ul>
+    </div>
+</nav>

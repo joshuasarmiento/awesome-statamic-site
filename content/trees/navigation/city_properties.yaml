@@ -1,0 +1,17 @@
+tree:
+  -
+    id: 49ad3077-b5a4-47e9-882f-0faaefa8d785
+    title: Baguio
+    url: /baguio
+  -
+    id: 04b53845-a819-4e3f-91ff-7b278e2a40b6
+    title: CDO
+    url: /cdo
+  -
+    id: 0447eec4-e16a-42b9-b15c-fe080b795933
+    title: Cebu
+    url: /cebu
+  -
+    id: 93c40ee0-dbf3-4cb8-b960-b04e7578b2c3
+    title: Makati
+    url: /makati

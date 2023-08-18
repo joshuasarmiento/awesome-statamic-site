@@ -1,0 +1,9 @@
+tree:
+  -
+    id: ff1f4aec-3aea-41cd-b3da-9a610921e4c3
+    title: 'News and Updates'
+    url: /news
+  -
+    id: 517eab7c-51f9-4a74-868e-8f9887d92e23
+    title: Properties
+    url: /properties
